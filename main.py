@@ -164,7 +164,7 @@ def delete_records_from_table():
 
 if __name__ == "__main__":
     # Raw Folder
-    raw_path = "./data/inc"
+    raw_path = "./data/raw"
 
     # DB Creds
     DATABASE = "patients_db"

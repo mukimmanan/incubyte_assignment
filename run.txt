@@ -1,0 +1,9 @@
+1. Clone the repo
+
+2. Then follow to setup postgres
+
+3. Run below docker commands
+docker build -t assignment .
+docker run --name assignment -p 5432:5432 -d assignment
+
+4. Then run the code <main.py>
